@@ -27,6 +27,10 @@ public class Snack4 {
             }
             fromLastCounter--;
 
+            if (i > fromLastCounter) {
+                i = charArray.length;
+            }
+
         }
 
         if(isPalindrome) {
