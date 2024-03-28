@@ -19,7 +19,7 @@ public class Snack1 {
           System.out.println(givenNumber);
 
       } // condizione per ripetere il ciclo
-      while (givenNumber > 20 || givenNumber < 10);
+      while (givenNumber > 20 || givenNumber < 10 || givenNumber % 2 != 0);
 
         System.out.println("The number is correct!");
 
