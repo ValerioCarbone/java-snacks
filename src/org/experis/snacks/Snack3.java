@@ -14,6 +14,6 @@ public class Snack3 {
             }
         }
 
-        System.out.println(counter);
+        System.out.println("La somma totale è " + counter);
     }
 }
